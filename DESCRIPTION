@@ -1,0 +1,18 @@
+Package: acho
+Title: Calculates the "Averaged Convex Hull Overlap" (ACHO) of two datasets (species).
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Raoul H.",
+           family = "Kutil",
+           role = c("aut", "cre"),
+           email = "raoul_hugo.kutil@stud.sbg.ac.at",
+           comment = c(ORCID = "01123317"))
+Description: Calculates the ACHO of two species. Can draw the prediction ellipses and convex hulls of datasets. Can also calculate the exact ACHO for a normal distributed datasets.
+Depends: R (>= 4.0.2)
+Imports: sp, rgeos
+Suggests: mvtnorm
+License: use_gpl3_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
